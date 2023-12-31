@@ -1,0 +1,26 @@
+@media screen and (max-width: 768px) {
+	
+
+	.timeline-block {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.timeline-block-right {
+		float: none;
+	}
+
+	.timeline-block-left {
+		float: none;
+		direction: ltr;
+	}
+
+	.timeline-block-left .timeline-content {
+		text-align: left;
+		order: 2;
+	}
+
+	.timeline-block-left .marker {
+		order: 1;
+	}
+}
