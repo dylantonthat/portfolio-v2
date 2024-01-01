@@ -31,21 +31,11 @@ function openResume() {
   if (screenWidth < 768) {
       // Open resume in a new tab
       window.open('resume.pdf', '_blank');
-  } else {
-      // Toggle the embedded view (you can add your existing logic here)
-      // For example, you can show/hide the iframe or update the src attribute.
-      var resumeIframe = document.getElementById('resume-frame');
-      var resumeLink = document.getElementById('resume-link');
-
-      if (resumeIframe.style.display === 'none') {
-          resumeIframe.style.display = 'block';
-          resumeLink.style.display = 'none';
-      } else {
-          resumeIframe.style.display = 'none';
-          resumeLink.style.display = 'block';
-      }
   }
 }
 
 // Check screen width on window resize
 window.addEventListener('resize', setResumeVisibility);
+
+// Check screen width on orientation change for mobile devices
+window.addEventListener('orientationchange', setResumeVisibility);
