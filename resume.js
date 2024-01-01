@@ -1,7 +1,7 @@
 // Function to set the visibility of resume content based on screen width
 function setResumeVisibility() {
   var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-  var resumeIframe = document.getElementById('resume-frame');
+  var resumeIframe = document.getElementById('resume-iframe');
   var resumeLink = document.getElementById('resume-link');
 
   if (screenWidth < 768) {
@@ -19,9 +19,6 @@ function setResumeVisibility() {
 document.addEventListener('DOMContentLoaded', function () {
   // Set the initial visibility of the resume content
   setResumeVisibility();
-
-  // Add event listener for window resize
-  window.addEventListener('resize', setResumeVisibility);
 });
 
 // Function to open the resume in a new tab
