@@ -49,7 +49,7 @@ html {
 /* Make my Header Name Responsive */
 @media (max-width: 526px) {
 	h1.display-3 {
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 }
 
