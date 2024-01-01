@@ -9,8 +9,20 @@ function setResumeVisibility() {
       resumeIframe.style.display = 'none';
       resumeLink.style.display = 'block';
   } else {
-      // Show the iframe and hide the link
-      resumeIframe.style.display = 'block';
+      // Remove the existing iframe
+      resumeIframe.parentNode.removeChild(resumeIframe);
+
+      // Create a new iframe and set the PDF source
+      resumeIframe = document.createElement('iframe');
+      resumeIframe.id = 'resume-iframe';
+      resumeIframe.className = 'embed-responsive-item';
+      resumeIframe.src = 'resume.pdf';
+
+      // Append the new iframe to the container
+      var container = document.querySelector('.embed-responsive');
+      container.appendChild(resumeIframe);
+
+      // Hide the link
       resumeLink.style.display = 'none';
   }
 }
