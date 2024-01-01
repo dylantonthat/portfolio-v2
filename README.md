@@ -31,10 +31,10 @@
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[HTML.com]: https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&style=flat
+[HTML.com]: https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&style=flat&logoColor=white
 [HTML-url]: https://html.com/
 
-[CSS.com]: https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&style=flat
+[CSS.com]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&style=flat
 [CSS-url]: https://www.css3.info/
 
 [JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&style=flat
