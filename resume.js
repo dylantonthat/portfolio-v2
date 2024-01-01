@@ -15,14 +15,14 @@ function setResumeVisibility() {
   }
 }
 
-// Initial check on page load
-window.onload = function () {
+// Initial check on DOMContentLoaded
+document.addEventListener('DOMContentLoaded', function () {
   // Set the initial visibility of the resume content
   setResumeVisibility();
 
   // Add event listener for window resize
   window.addEventListener('resize', setResumeVisibility);
-};
+});
 
 // Function to open the resume in a new tab
 function openResume() {
@@ -48,6 +48,4 @@ function openResume() {
 }
 
 // Check screen width on window resize
-window.onresize = function () {
-  setResumeVisibility();
-};
+window.addEventListener('resize', setResumeVisibility);
