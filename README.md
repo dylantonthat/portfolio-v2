@@ -18,7 +18,7 @@
 * [![CSS][CSS.com]][CSS-url]
 * [![JavaScript][JavaScript.com]][JavaScript-url]
 
-* [![Bootstrap][Bootstrap.com][Bootstrap-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
