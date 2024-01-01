@@ -21,12 +21,6 @@
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
