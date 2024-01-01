@@ -12,6 +12,7 @@ body {
 /* HTML */
 html {
 	scroll-behavior: smooth;
+	height: 100%;
 }
 
 * {
@@ -58,6 +59,7 @@ header,
 section {
 	padding-top: 5rem;
 	color: white;
+
 }
 
 /* Social Icons in About Me */
