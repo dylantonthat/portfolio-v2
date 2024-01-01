@@ -31,13 +31,13 @@
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[HTML.com]: https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5
+[HTML.com]: https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&style=flat
 [HTML-url]: https://html.com/
 
-[CSS.com]: https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3
+[CSS.com]: https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&style=flat
 [CSS-url]: https://www.css3.info/
 
-[JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&style=flat
 [JavaScript-url]: https://www.javascript.com/
 
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white&style=flat
