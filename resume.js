@@ -19,3 +19,25 @@ function openResume() {
       }
   }
 }
+
+// Check screen width on window resize
+window.onresize = function () {
+  var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  var resumeIframe = document.getElementById('resume-frame');
+  var resumeLink = document.getElementById('resume-link');
+
+  if (screenWidth < 768) {
+      // Hide the iframe and show the link
+      resumeIframe.style.display = 'none';
+      resumeLink.style.display = 'block';
+  } else {
+      // Show the iframe and hide the link
+      resumeIframe.style.display = 'block';
+      resumeLink.style.display = 'none';
+  }
+};
+
+// Initial check on page load
+window.onload = function () {
+  window.onresize();
+};
