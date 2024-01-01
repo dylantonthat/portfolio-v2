@@ -95,13 +95,13 @@ section {
 
 	.user-image {
 		width: 225px;
-		/* Adjust the width of the profile image for better responsiveness */
+		/* Adjust the width of the profile picture for better responsiveness */
 		height: 225px;
 	}
 }
 
 
-@media (max-width: 414px) {
+@media (max-width: 430px) {
 	header .col-lg-7 {
 		padding-bottom: 1.5rem;
 		/* Adjust the padding as needed */
@@ -110,9 +110,9 @@ section {
 	}
 
 	.user-image {
-		width: 150px;
+		width: 200px;
 		/* Adjust the width of the profile image for better responsiveness */
-		height: 150px;
+		height: 200px;
 	}
 
 	.rounded-box-blue {
