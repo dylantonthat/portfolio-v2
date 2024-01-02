@@ -9,6 +9,17 @@ body {
 	background: linear-gradient(to bottom right, #28282B, #333438); /* Adjust color stops as needed */
 }
 
+/* for light mode */
+/*
+h1.display-3 {
+	color: #28282B;
+}
+
+.footer .timeline-p {
+	color: #28282B;
+}
+*/
+
 /* HTML */
 html {
 	scroll-behavior: smooth;
