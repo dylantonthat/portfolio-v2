@@ -37,7 +37,7 @@ html {
 
 /* IMessage Boxes */
 .rounded-box-blue {
-	background-color: #218aff;
+	background-color: #0A84FF;
 	border-radius: 35px;
 	margin: 0px auto;
 	margin-bottom: 50px;
@@ -53,6 +53,16 @@ html {
 	margin-bottom: 50px;
 	max-width: 550px;
 	color: white;
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+	padding: 10px;
+}
+.rounded-box-white {
+	background-color: white;
+	border-radius: 35px;
+	margin: 0px auto;
+	margin-bottom: 50px;
+	max-width: 550px;
+	color: black;
 	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
 	padding: 10px;
 }
@@ -142,8 +152,8 @@ section {
 
 .list-group-item.active {
 	color: white !important;
-	background: #39ff5a !important;
-	border-color: #39ff5a !important;
+	background: #63E6E2 !important;
+	border-color: #63E6E2 !important;
 }
 
 .list-group a {
@@ -152,7 +162,7 @@ section {
 }
 
 .list-group-item:hover {
-	background-color: #39ff5a;
+	background-color: #63E6E2;
 	cursor: pointer;
 	color: white !important;
 }
@@ -348,12 +358,30 @@ section {
 	height: 100%;
 }
 
+/* Contact */
+.btn-ios-style {
+	background-color: #0A84FF; /* iOS blue color */
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 8px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.btn-ios-style:hover {
+	background-color: #0056b3; /* Slightly darker blue on hover */
+}
+
+.form-control::placeholder {
+	color: #aeb9cc !important; /* Change this to your desired text color */
+}
 
 /* Footer */
 footer {
-	padding: 25px 0;
+	padding: 25px 0 0 0; /* Top padding only */
 }
 
+/* applies to the Copyright + my Name*/
 .timeline-p {
 	font-size: 14px;
 	line-height: 1.5em;
