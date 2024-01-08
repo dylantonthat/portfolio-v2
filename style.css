@@ -152,8 +152,8 @@ section {
 
 .list-group-item.active {
 	color: white !important;
-	background: #63E6E2 !important;
-	border-color: #63E6E2 !important;
+	background: #39FF5A !important;
+	border-color: #39FF5A !important;
 }
 
 .list-group a {
@@ -162,7 +162,7 @@ section {
 }
 
 .list-group-item:hover {
-	background-color: #63E6E2;
+	background-color: #39FF5A;
 	cursor: pointer;
 	color: white !important;
 }
